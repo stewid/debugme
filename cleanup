@@ -1,0 +1,6 @@
+#!/bin/sh
+
+rm -f src/*.o
+rm -f src/*.so
+rm -rf src-x64
+rm -rf src-i386
