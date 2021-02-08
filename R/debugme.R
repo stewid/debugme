@@ -1,6 +1,6 @@
 foo_x <- function() {
     if (runif(1) < 0.3)
-        stop("Unable to determine 'x'.")
+        stop("Unable to determine 'x'.", call. = FALSE)
     1
 }
 
